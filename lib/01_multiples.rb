@@ -5,6 +5,12 @@ def is_multiple_of_3_or_5?(current_number)
       else
             return false
       end
+
+      # Au choix, des variations possibles :
+      # or : return ((int%3==0) || (int%5==0))
+      # or : int%3==0 ? true : false
+      # or : return true if i%3==0
+      # or : return "il y a une erreur" if int.nil? pour tester 
 end
 
 def sum_of_3_or_5_multiples(final_number)
